@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Lemon logo" color="#000">
+  <title>Lemon logo</title>
+  <defs>
+    <!-- cut-outs are real transparency, so the logo works on any background -->
+    <mask id="lemon-cuts" maskUnits="userSpaceOnUse" x="0" y="0" width="128" height="128">
+      <rect width="128" height="128" fill="#fff"/>
+      <!-- gap between leaf and lemon -->
+      <path d="M68 38 C68 20 84 10 104 12 C104 30 90 42 68 38 Z" fill="none" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+      <!-- highlight arc -->
+      <path d="M36 66 C44 52 60 47 76 50" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+      <!-- small highlight dot -->
+      <circle cx="86" cy="54" r="3.2" fill="#000"/>
+      <!-- leaf vein -->
+      <path d="M73 35 C82 29 91 22 99 16" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g fill="currentColor" mask="url(#lemon-cuts)">
+    <!-- leaf -->
+    <path d="M70 36 C70 20 84 12 100 14 C100 28 88 38 70 36 Z"/>
+    <!-- lemon body -->
+    <path d="M8 76 C14 74 22 71 28 60 C40 38 84 32 100 50 C106 57 112 58 120 55 C118 62 114 66 111 74 C100 101 52 111 30 93 C24 87 17 79 8 76 Z"/>
+  </g>
+</svg>

@@ -7,42 +7,187 @@
   <link href="/src/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-white dark:bg-slate-950">
 
 <!-- Header -->
 <header>
-  <nav class="bg-white border-b-gray-500 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-7xl">
+  <nav class="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 px-4 lg:px-6 py-2.5">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-6xl">
       <a href="#" class="flex items-center">
-        <img src="lemon-logo-bw.svg" alt="Lemon logo" class="w-12 h-12">
-        <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white"> LL</span>
+        <img src="lemon-logo-bw.svg" alt="Lemon logo" class="w-12 h-12 dark:invert">
+        <span class="px-3 self-center text-lg font-stretch-semi-condensed whitespace-nowrap dark:text-white">LL Portfolio</span>
       </a>
-      <div class="flex items-center lg:order-1">
-        <a href="#" class="text-gray-700 dark:text-white hover:bg-gray-100 focus:ring-4 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-600 focus:outline-none dark:focus:ring-gray-900">About</a>
-        <a href="#" class="text-gray-700 dark:text-white hover:bg-gray-100 focus:ring-4 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-600 focus:outline-none dark:focus:ring-gray-900">Portfolio</a>
-        <a href="#" class="flex items-center gap-2 text-gray-700 dark:text-white hover:bg-gray-100 focus:ring-4 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-600 focus:outline-none dark:focus:ring-gray-900">
-        <img class="w-5 h-5" src="github-icon.webp" alt="GitHub logo">
-          GitHub
-        </a>
-        <a href="#" class="text-white bg-blue-500 hover:bg-blue-700 focus:ring-4 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-gray-900">Contact Me</a>
+      <div class="flex items-center">
+        <a href="#" class="text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-600 focus:outline-none dark:focus:ring-gray-900">About</a>
+        <a href="#" class="text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-600 focus:outline-none dark:focus:ring-gray-900">Portfolio</a>
+        <a href="#" class="inline-flex text-white bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-400 dark:bg-blue-500 focus:ring-4 focus:ring-yellow-400 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none">Contact Me</a>
+
       </div>
     </div>
   </nav>
 </header>
+
 <!-- Hero section -->
-
-
-
+<section class="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+  <div class="grid lg:grid-cols-12 lg:gap-8 xl:gap-4 py-8 px-4 mx-auto max-w-7xl text-center lg:py-16 lg:px-12">
+    <div class="mx-auto place-self-center lg:col-span-7">
+      <h1 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none text-slate-900 dark:text-white md:text-4xl lg:text-5xl">John Doe</h1>
+      <p class="max-w-xl mb-6 font-light text-slate-600 dark:text-slate-400 lg:mb-8 md:text-lg">Currently studying Full Stack Development - Java, former education within Software Engineering and Cybersecurity</p>
+      <a href="#" class="font-bold inline-flex mb-4 mt-4 text-shadow-slate-700 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-300 hover:bg-slate-100 focus:ring-4 dark:focus:ring-yellow-300 focus:ring-yellow-400 gap-2 rounded-lg text-sm px-5 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none">
+        <img class="w-5 h-5" src="github-icon.webp" alt="GitHub logo">
+        GitHub Portfolio
+      </a>
+    </div>
+    <div class="hidden lg:mt-0 lg:col-span-5 md:flex lg:flex">
+      <img src="undraw_generating-response_y0h5.svg" alt="alticon">
+    </div>
+  </div>
+</section>
 
 <!-- Skills/info section -->
+<section class="bg-white dark:bg-slate-950">
+  <div class="py-8 px-4 mx-auto max-w-7xl sm:py-16 lg:px-6">
+    <div class="max-w-3xl">
+      <h1 class="mb-4 text-2xl tracking-tight font-mono text-slate-900 dark:text-white">Projects overview:</h1>
+      <h2 class="max-w-7xl mb-6 font-mono text-slate-600 dark:text-slate-400 lg:mb-8 md:text-lg">Here are my specific standout projects and their associated skills, tech stacks, features and purposes, along with any relevant links: </h2>
+    </div>
+    <div class="grid gap-6 py-12 md:grid-cols-2 xl:grid-cols-3">
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+      <article class="flex flex-col h-full p-6 bg-white border border-slate-200 dark:bg-slate-900 dark:border-slate-800 rounded-lg shadow-sm">
+        <div class="mb-6">
+          <h2 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Project title 1</h2>
+          <p class="mb-4 font-light text-slate-600 dark:text-slate-400">Project description 1</p>
+          <ul class="flex flex-wrap gap-2">
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+            <li class="px-3 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 2</li>
+          </ul>
+        </div>
+        <div class="pt-4 mt-auto border-t border-slate-200 dark:border-slate-800">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-slate-900 uppercase dark:text-white">Tech Stack</h3>
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 font-mono text-sm text-slate-600 dark:text-slate-400">
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+        <a href="#" class="font-bold w-full justify-center inline-flex mb-4 mt-4 text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 focus:ring-4 focus:ring-yellow-400 dark:focus:ring-yellow-300 gap-2 rounded-lg text-sm px-8 lg:px-5 py-2 lg:py-2.5 focus:outline-none">
+          GitHub Link
+        </a>
+      </article>
+    </div>
+    <div class="max-w-3xl">
+      <h2 class="mb-4 text-2xl tracking-tight font-mono text-slate-900 dark:text-white"> Non-project-related skills:</h2>
+      <ul class="flex py-2 flex-wrap gap-2">
+        <li class="px-6 py-2 text-xs font-medium text-slate-700 bg-slate-100 rounded-full dark:bg-slate-800 dark:text-slate-300">Skill 1</li>
+      </ul>
+      <h2 class="mb-4 py-3 text-2xl tracking-tight font-mono text-slate-900 dark:text-white">Additional information:</h2>
+    </div>
+  </div>
+</section>
 
 <!-- Footer -->
-<footer class="px-6 md:px-16 lg:px-24 xl:px-32 w-full">
-  <div class="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30">
-
+<footer class="px-6 md:px-16 lg:px-24 xl:px-32 w-full bg-white dark:bg-slate-950">
+  <div class="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-t border-slate-200 dark:border-slate-800">
     <div class="max-w-96">
-
-      <p class="mt-6 text-sm text-gray-500">
+      <p class="mt-6 text-sm text-slate-600 dark:text-slate-400">
         Portfolio landing page - first iteration <br>
         Social media links:
       </p>
@@ -65,16 +210,11 @@
       </div>
     </div>
 
-    <div class="w-1/2 flex flex-wrap md:flex-nowrap justify-between">
-      <div>
-        <h2 class="font-semibold text-gray-900 mb-5">RESOURCES</h2>
-        <ul class="text-sm text-gray-500 space-y-2 list-none">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-        </ul>
-      </div>
+    <div class="w-full md:w-auto flex flex-wrap md:flex-nowrap justify-center items-center gap-x-8 gap-y-3">
+      <a href="#" class="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+      <a href="#" class="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">About</a>
+      <a href="#" class="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">Privacy</a>
+      <a href="#" class="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">Terms</a>
     </div>
 
   </div>
